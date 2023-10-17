@@ -13,4 +13,4 @@ a = pick("contents/actions")
 e = pick("contents/environments")
 
 
-print(f'\n\n  draw... {s} {m} {a} {e}')
+print(f'\n hmm... draw: {s} {m} {a} {e}')
