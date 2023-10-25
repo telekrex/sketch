@@ -3,8 +3,8 @@ from random import choice
 
 
 def pick(file):
-	with open(f'{file}.txt', 'r') as f:
-		return choice(f.read().split('\n'))
+    with open(f'{file}.txt', 'r', encoding='UTF-8') as f:
+        return choice(f.read().split('\n'))
 
 
 s = pick("contents/subjects")
