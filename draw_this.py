@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Author: telekrex
 from random import choice
 
 
